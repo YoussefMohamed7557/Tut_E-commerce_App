@@ -1,7 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tut_app/presentation_layer/fonts_manager.dart';
+import 'package:tut_app/presentation_layer/resources/fonts_manager.dart';
 
 TextStyle _getTextStyle(double fontSize, FontWeight fontWight, Color color){
   return TextStyle(color: color, fontWeight: fontWight,fontSize: fontSize,fontFamily: FontConstants.fontFamily);

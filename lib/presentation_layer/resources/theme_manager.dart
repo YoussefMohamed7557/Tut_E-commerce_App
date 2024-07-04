@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tut_app/presentation_layer/color_manager.dart';
-import 'package:tut_app/presentation_layer/fonts_manager.dart';
-import 'package:tut_app/presentation_layer/styles_manager.dart';
-import 'package:tut_app/presentation_layer/values_manager.dart';
+import 'package:tut_app/presentation_layer/resources/color_manager.dart';
+import 'package:tut_app/presentation_layer/resources/fonts_manager.dart';
+import 'package:tut_app/presentation_layer/resources/styles_manager.dart';
+import 'package:tut_app/presentation_layer/resources/values_manager.dart';
 
 ThemeData getApplicationTheme(){
   return ThemeData(
