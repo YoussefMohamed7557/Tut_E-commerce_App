@@ -46,8 +46,8 @@ ThemeData getApplicationTheme(){
     textTheme: TextTheme(
       displayLarge: getLightFont(color: ColorManager.White,fontSize: FontSizeManager.s22),
       displayMedium: getSemiBoldFont(color: ColorManager.DARK_GRAY,fontSize: FontSizeManager.s16),
-      titleMedium: getMediumFont(color: ColorManager.LIGHT_PRIMARY,fontSize: FontSizeManager.s14),
-      labelMedium: getRegularFont(color: ColorManager.GRAY1),
+      titleMedium: getSemiBoldFont(color: ColorManager.PRIMARY,fontSize: FontSizeManager.s20),
+      labelMedium: getRegularFont(color: ColorManager.GRAY,fontSize: FontSizeManager.s14),
     ),
     //input decoration theme
     inputDecorationTheme: InputDecorationTheme(

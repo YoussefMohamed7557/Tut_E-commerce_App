@@ -6,4 +6,9 @@ class ImageAssets{
   static const String onBoardingLogo2 = "$imagePath/onboarding_logo2.svg";
   static const String onBoardingLogo3 = "$imagePath/onboarding_logo3.svg";
   static const String onBoardingLogo4 = "$imagePath/onboarding_logo4.svg";
+  // onBoarding bottom sheet icons
+  static const String leftArrowIc = "$imagePath/left_arrow_ic.svg";
+  static const String rightArrowIc = "$imagePath/right_arrow_ic.svg";
+  static const String hollowCirlceIc = "$imagePath/hollow_cirlce_ic.svg";
+  static const String solidCircleIc = "$imagePath/solid_circle_ic.svg";
 }

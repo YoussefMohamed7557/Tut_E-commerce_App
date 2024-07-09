@@ -16,4 +16,8 @@ class StringsManager{
   static const onBoardingSubTitle4 =
       "Tut app is an awesome flutter application using clean architecture #4";
 
+  // skip button
+  static const skip =
+      "skip";
+
 }
