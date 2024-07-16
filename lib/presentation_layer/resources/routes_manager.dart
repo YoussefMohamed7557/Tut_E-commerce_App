@@ -3,7 +3,7 @@ import 'package:tut_app/presentation_layer/details_store_view/details_store_view
 import 'package:tut_app/presentation_layer/forgot_password_view/forgot_password_view.dart';
 import 'package:tut_app/presentation_layer/login_view/login_view.dart';
 import 'package:tut_app/presentation_layer/main_view/main_view.dart';
-import 'package:tut_app/presentation_layer/on_boarding_view/on_boarding_view.dart';
+import 'package:tut_app/presentation_layer/on_boarding_view/onboarding_view/on_boarding_view.dart';
 import 'package:tut_app/presentation_layer/register_view/register_view.dart';
 import 'package:tut_app/presentation_layer/settings_view/settings_view.dart';
 import 'package:tut_app/presentation_layer/splash_view/splash_view.dart';
