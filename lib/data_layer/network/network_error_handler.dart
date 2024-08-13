@@ -1,14 +1,14 @@
 import 'package:dio/dio.dart';
 import 'package:tut_app/data_layer/network/failure.dart';
 class ErrorHandler implements Exception{
-  late Failure failure;
+  late Failure failureObject;
   ErrorHandler.handle(dynamic error){
     if (error is DioException){
       // dio error so it's an error response of the API or from dio itself
-      failure = _handelError(error);
+      failureObject = _handelError(error);
     }else{
       // default error
-      failure = ResponseStatus.defaultError.getFailure();
+      failureObject = ResponseStatus.defaultError.getFailure();
     }
   }
   Failure _handelError(DioException error) {
@@ -110,4 +110,8 @@ class ResponsesStatusMessage{
   static const String receiveTimeout = "receive timeout , check your connection and try again";
   static const String sendTimeout = "send timeout, check your connection and try again";
   static const String cacheError = "cache error, check your connection and try again";
+}
+class ApiInternalStatus{
+  static const int   success = 0;
+  static const int fail = 1;
 }

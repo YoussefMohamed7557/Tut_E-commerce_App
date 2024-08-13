@@ -40,6 +40,7 @@ dependencies:
   dartz: ^0.10.1
   json_serializable: ^6.8.0
   internet_connection_checker: ^1.0.0+1
+  pretty_dio_logger: ^1.4.0
 
 dev_dependencies:
   flutter_test:
